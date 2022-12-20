@@ -1,4 +1,5 @@
 # Topics Covered
+## First Lesson
 * One liners
 * Anonymous functions
 * Default Types
@@ -8,6 +9,7 @@
 * Decorators
 * Callback Functions     
 * Sorting    
+## Second Lesson
 * Class and Objects
 * Magic Functions
 * OOP:
