@@ -17,8 +17,3 @@ class Chimpanzee(Monkey):
     def print_data(self):
         super().print_data()
         print("""I'm a Chimpanzee and My height is: {}""".format(self.height))
-
-    def eat(self):
-        print("""{} the Chimpanzee is eating !""".format(self.name))
-
-
