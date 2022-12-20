@@ -82,7 +82,7 @@ with open('people.json', 'r') as fp:
 people.sort(key=lambda x: x["age"])
 ```
 We get:
-```python
+```json
 [
   {
     "name": "student_id",
