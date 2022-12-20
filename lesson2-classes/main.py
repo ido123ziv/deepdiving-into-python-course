@@ -2,14 +2,16 @@ from Student import Student
 from School import School
 
 Sch = School()
-Sch.get_students()
-for i in range(5):
-    Sch.add_student(Student(str(i), i))
+# Sch.get_students()
 for j in range(1, 5):
-    for s in Sch.get_student_list():
-        i = Sch.get_student_list().index(s) + 1
-        s.add_grade(i**j)
+    Sch.add_student(Student(str(j), j, [x+j for x in range(1, 5)]))
+    print(Sch.get_student_list()[j-1])
+    # for i in range(10):
+    #     Sch.get_student_list()[j-1].add_grade(j+i)
+    #     # s.add_grade(i**j)
 Sch.get_students()
+"""
 print("sorting !")
 Sch.sort_by_avg(True)
 Sch.get_students()
+"""

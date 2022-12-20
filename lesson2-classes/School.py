@@ -16,7 +16,7 @@ class School:
         print("Here are all the students:\n")
         for s in self.students:
             s.print_data()
-            print("Student Avg is: {}".format(s.get_avg()))
+            # print("Student Avg is: {}".format(s.get_avg()))
 
     def sort_by_avg(self, flag=False):
         self.students.sort(key=lambda x: x.get_avg(), reverse=flag)
