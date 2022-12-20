@@ -17,7 +17,7 @@ people = [
     {"name": "ido", "age": 15},
     {"name": "do", "age": 16},
     {"name": "io", "age": 41},
-    {"name": "id", "age": 5}
+    {"name": "student_id", "age": 5}
 ]
 people.sort(key=lambda x: x["age"])
 print(people)
