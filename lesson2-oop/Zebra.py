@@ -2,7 +2,7 @@ from Animal import Animal
 
 
 class Zebra(Animal):
-    def __init__(self, name, strips, number_of_legs=4):
+    def __init__(self, name: str, strips: int, number_of_legs:  int = 4) -> None:
         super().__init__(name, number_of_legs)
         self._strips = strips
 

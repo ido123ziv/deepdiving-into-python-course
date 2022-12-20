@@ -8,7 +8,7 @@ class Zoo:
     def animals(self):
         return self._animals
 
-    def add_animal(self, animal):
+    def add_animal(self, animal: object) -> None:
         self.animals.append(animal)
 
     def count_animals(self):
