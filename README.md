@@ -24,6 +24,13 @@ pip3 install virtualenv
 brew install --cask pycharm
 ```
 
+## Setup
+```bash
+virtualenv venv
+source ./venv/bin/activate
+pip install -r requirements.txt
+```
+
 ## Examples Map Reduce:
 ```python
 import functools as ft
