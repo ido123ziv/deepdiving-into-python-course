@@ -1,0 +1,17 @@
+<persons>
+    <person>
+        <name>Avi</name>
+        <address city="TLV">
+            <street>Herzel</street>
+            <no>23</no>
+        </address>
+    </person>
+    <person>
+        <name>Dana</name>
+        <address city="Haifa">
+            <street>Begin</street>
+            <no>72</no>
+        </address>
+    </person>
+</persons>
+
